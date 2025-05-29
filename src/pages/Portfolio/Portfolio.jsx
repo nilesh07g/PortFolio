@@ -1,5 +1,6 @@
 import  { useState, useEffect } from 'react';
 import { FaRegEye } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 const Portfolio = () => {
   // State to store project data and filtered projects
@@ -62,7 +63,7 @@ const Portfolio = () => {
               data-category={project.category}
               key={project.id}
             >
-              <a href="#">
+              <Link to={`/project/${project.id}`}>
                 <figure className="project-img">
                   <div className="project-item-icon-box">
                     <FaRegEye />
@@ -71,7 +72,7 @@ const Portfolio = () => {
                 </figure>
                 <h3 className="project-title">{project.title}</h3>
                 <p className="project-category">{project.category}</p>
-              </a>
+              </Link>
             </li>
           ))}
         </ul>
