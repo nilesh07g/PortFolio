@@ -8,6 +8,7 @@ import Resume from './pages/Resume/Resume.jsx';
 import Portfolio from './pages/Portfolio/Portfolio.jsx';
 import Contact from './pages/Contact/Contact.jsx';
 import Blogs from './Blogs/Blogs.jsx';
+import ProjectDetails from './pages/ProjectDetails.jsx';
 
 const router = createBrowserRouter([
   {
@@ -26,6 +27,10 @@ const router = createBrowserRouter([
         {
           path: "/portfolio",
           element:<Portfolio/>,
+        },
+        {
+          path: "/project/:id",
+          element:<ProjectDetails/>,
         },
         {
           path: "blogs",

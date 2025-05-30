@@ -3,55 +3,74 @@
       "id": 1,
       "title": "Font Recognition Using Deep Learning",
       "category": "Deep Learning",
-      "image": "images/project-1.jpg"
+      "image": "images/Font-Recognition-project.png",
+      "description":"A deep learning model built with LeNet-5 architecture to recognize and classify different fonts from images using convolutional neural networks.",
+      "technologies": ["Python", "TensorFlow", "CNN", "LeNet-5", "Deep Learning"],
+      "features": [
+        "Accurate font classification from image inputs",
+        "Improved OCR support for diverse font types",
+        "Real-time font recognition capability",
+        "Trained on a large dataset with varied fonts"
+      ],
+      "github": "https://github.com/nilesh07g/BTP",
+      "liveDemo": "https://font-recognition-demo.com"
     },
     {
       "id": 2,
-      "title": "Orizon",
+      "title": "Book Store",
       "category": "Web development",
-      "image": "images/project-2.png"
+      "image": "images/book-store-project.png",
+      "description": "A full-stack Book Store application with role-based access control, real-time inventory management, and admin analytics, built using the MERN stack and Firebase.",
+      "technologies": ["React", "Node.js", "Express", "MongoDB", "Firebase", "Tailwind CSS"],
+      "features": [
+        "Role-based access for Users and Admins",
+        "Firebase Authentication with Email/Password and Google Sign-in",
+        "Admin Dashboard for orders, revenue, and user insights",
+        "Secure, protected routes for admin-level operations",
+        "Responsive UI with Tailwind CSS"
+      ],
+      "github": "https://github.com/nilesh07g/book-store",
+      "liveDemo": "https://book-store-demo.com"
     },
     {
       "id": 3,
-      "title": "Fundo",
-      "category": "Machine Learning",
-      "image": "images/project-3.jpg"
+      "title": "Blog App",
+      "category": "Web development",
+      "image": "images/project-3.jpg",
+      "description": "A MERN stack Blog platform featuring role-based access control, admin blog management, and secure user interactions including authentication and commenting.",
+      "technologies": ["React", "Node.js", "Express", "MongoDB", "JWT", "Tailwind CSS"],
+      "features": [
+        "Role-based access: Admin and User",
+        "Admin can create, edit, and delete blogs",
+        "User authentication using JWT",
+        "Users can read blogs and comment",
+        "Protected admin routes with secure access"
+      ],
+      "github": "https://github.com/nilesh07g/BLOG-APP-MERN",
+      "liveDemo": "https://blog-app-demo.com"
     },
     {
       "id": 4,
-      "title": "Brawlhalla",
-      "category": "Applications",
-      "image": "images/project-3.jpg"
-    },
-    {
-      "id": 5,
-      "title": "DSM.",
-      "category": "Web design",
-      "image": "images/project-5.png"
-    },
-    {
-      "id": 6,
-      "title": "MetaSpark",
-      "category": "Web design",
-      "image": "images/project-6.png"
-    },
-    {
-      "id": 7,
-      "title": "Summary",
-      "category": "Web development",
-      "image": "images/project-7.png"
-    },
-    {
-      "id": 8,
-      "title": "Task Manager",
-      "category": "Applications",
-      "image": "images/project-8.jpg"
-    },
-    {
-      "id": 9,
-      "title": "Arrival",
-      "category": "Web development",
-      "image": "images/project-9.png"
+      "title": "Breast Cancer Prediction",
+      "category": "Machine Learning",
+      "image": "images/project-9.png",
+      "description": "An SVM-based machine learning model that classifies breast tumors as benign or malignant using optimized features and evaluation metrics.",
+      "technologies": ["Python", "Pandas", "Scikit-learn", "Matplotlib", "SVM"],
+      "features": [
+        "SVM-based tumor classification",
+        "Feature engineering for optimal performance",
+        "Hyperparameter tuning using GridSearchCV",
+        "Evaluation with Confusion Matrix and Classification Report",
+        "Achieved 91% accuracy"
+      ],
+      "github": "https://github.com/nilesh07g/Data-Science-2",
+      "liveDemo": "https://breast-cancer-model-demo.com"
     }
+
+    
+   
+  
+    
+   
   ]
   
